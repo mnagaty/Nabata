@@ -40,14 +40,14 @@
             <div class="inline-flex items-center gap-3 glass-effect px-6 py-3 rounded-full mb-8 
                         shadow-2xl hover:scale-105 transition-transform cursor-pointer animate-pulse-ring">
                 <span class="text-2xl" role="img" aria-label="Trophy">🏆</span>
-                <span class="font-semibold bg-gradient-to-r from-yellow-300 to-orange-300 bg-clip-text text-transparent">
-                    Elite Technical Diving Instructor & Evaluator
+                <span class="font-semibold text-white">
+                    Elite Technical Diving Instructor Trainer
                 </span>
             </div>
             
             <!-- Main Title -->
-            <h1 class="hero-title text-6xl md:text-8xl font-black mb-6 tracking-tight">
-                <span class="gradient-text">MOUMEN NABATA</span>
+            <h1 class="hero-title text-6xl md:text-8xl font-black mb-6 tracking-tight text-white">
+                MOUMEN NABATA
             </h1>
             
             <!-- Subtitle -->
@@ -60,19 +60,19 @@
             <!-- Statistics Cards -->
             <div class="grid md:grid-cols-3 gap-8 mb-12 max-w-4xl mx-auto">
                 <div class="glass-effect rounded-2xl p-6 card-hover" tabindex="0" role="button">
-                    <div class="stats-counter bg-gradient-to-r from-orange-400 to-red-400 bg-clip-text text-transparent mb-2" id="divers-counter">
+                    <div class="stats-counter text-white mb-2" id="divers-counter">
                         {{ animatedCounters.divers }}+
                     </div>
                     <div class="text-sm uppercase tracking-wider opacity-90">Divers Trained</div>
                 </div>
                 <div class="glass-effect rounded-2xl p-6 card-hover" tabindex="0" role="button">
-                    <div class="stats-counter bg-gradient-to-r from-orange-400 to-red-400 bg-clip-text text-transparent mb-2" id="professionals-counter">
+                    <div class="stats-counter text-white mb-2" id="professionals-counter">
                         {{ animatedCounters.professionals }}+
                     </div>
                     <div class="text-sm uppercase tracking-wider opacity-90">Professionals Certified</div>
                 </div>
                 <div class="glass-effect rounded-2xl p-6 card-hover" tabindex="0" role="button">
-                    <div class="stats-counter bg-gradient-to-r from-orange-400 to-red-400 bg-clip-text text-transparent mb-2" id="years-counter">
+                    <div class="stats-counter text-white mb-2" id="years-counter">
                         {{ animatedCounters.years }}
                     </div>
                     <div class="text-sm uppercase tracking-wider opacity-90">Years Experience</div>
@@ -105,48 +105,7 @@
             </div>
             
             <!-- Social Links -->
-            <div class="flex justify-center gap-6 mb-12" role="list">
-                <a href="#" target="_blank" 
-                   class="social-icon w-14 h-14 rounded-full flex items-center justify-center text-2xl shadow-lg"
-                   style="background: linear-gradient(135deg, #1877f2, #42a5f5);"
-                   role="listitem" aria-label="Facebook">
-                    <span>📘</span>
-                </a>
-                <a href="#" target="_blank" 
-                   class="social-icon w-14 h-14 rounded-full flex items-center justify-center text-2xl shadow-lg"
-                   style="background: linear-gradient(135deg, #e4405f, #fd1d1d);"
-                   role="listitem" aria-label="Instagram">
-                    <span>📷</span>
-                </a>
-                <a href="#" target="_blank" 
-                   class="social-icon w-14 h-14 rounded-full flex items-center justify-center text-2xl shadow-lg"
-                   style="background: linear-gradient(135deg, #ff0000, #cc0000);"
-                   role="listitem" aria-label="YouTube">
-                    <span>📺</span>
-                </a>
-                <a href="#" target="_blank" 
-                   class="social-icon w-14 h-14 rounded-full flex items-center justify-center text-2xl shadow-lg"
-                   style="background: linear-gradient(135deg, #0077b5, #005582);"
-                   role="listitem" aria-label="LinkedIn">
-                    <span>💼</span>
-                </a>
-            </div>
             
-            <!-- Agency Logos -->
-            <div class="flex justify-center items-center gap-8 mb-8 flex-wrap">
-                <div class="agency-logo h-12 flex items-center justify-center px-4 py-2 glass-effect rounded-lg">
-                    <span class="text-white font-bold text-sm">PADI</span>
-                </div>
-                <div class="agency-logo h-12 flex items-center justify-center px-4 py-2 glass-effect rounded-lg">
-                    <span class="text-white font-bold text-sm">SSI</span>
-                </div>
-                <div class="agency-logo h-12 flex items-center justify-center px-4 py-2 glass-effect rounded-lg">
-                    <span class="text-white font-bold text-sm">NAUI</span>
-                </div>
-                <div class="agency-logo h-12 flex items-center justify-center px-4 py-2 glass-effect rounded-lg">
-                    <span class="text-white font-bold text-sm">TDI</span>
-                </div>
-            </div>
             
             <!-- Scroll Indicator -->
             <div class="scroll-indicator" role="button" tabindex="0" aria-label="Scroll down" @click="scrollToSection('about')">
@@ -167,7 +126,7 @@
         <div class="text-center mb-16 appear-on-scroll">
           <span class="text-sm font-bold text-orange-500 uppercase tracking-wider">About Me</span>
           <h2 class="text-5xl md:text-6xl font-black mt-2 mb-6 gradient-text">
-            Journey to Excellence
+            My Evolution in Diving
           </h2>
           <div class="w-24 h-1 bg-gradient-to-r from-orange-500 to-red-500 mx-auto mb-6"></div>
           <p class="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -578,7 +537,7 @@
             <div class="bg-gradient-to-r from-orange-500 to-red-500 rounded-2xl p-6 text-white shadow-2xl card-hover">
               <h4 class="text-xl font-bold mb-3">💬 Quick Response</h4>
               <p class="mb-4">Available for immediate questions via WhatsApp</p>
-              <a href="https://wa.me/201234567890" target="_blank"
+              <a href="https://wa.me/201224369878" target="_blank"
                  class="inline-flex items-center gap-2 bg-white text-orange-600 px-6 py-3 rounded-xl 
                         font-bold hover:scale-105 transition-transform">
                 Start Chat Now
@@ -716,9 +675,9 @@ export default {
       timeline: [
         { year: '2000', title: 'Freediving Journey Begins', description: 'Started my underwater adventure with freediving' },
         { year: '2006', title: 'PADI Instructor', description: 'Became certified PADI instructor, teaching worldwide' },
-        { year: '2015', title: 'Technical Evolution', description: 'Advanced to TDI/SDI technical instructor trainer' },
-        { year: '2020', title: 'Freedom Divers Safaga', description: 'Founded premier Red Sea training center' },
-        { year: '2024', title: 'Elite Instructor Trainer', description: 'SDI / TDI evaluator and course director' }
+        { year: '2007', title: 'Freedom Divers Safaga', description: 'Founded premier Red Sea training center' },
+        { year: '2013', title: 'SDI TDI Instructor Trainer', description: 'Advanced to TDI/SDI technical instructor trainer' },
+        { year: '2024', title: 'SDI TDI Examiner', description: 'SDI / TDI examiner and course director' }
       ],
       
       // ===============================
@@ -921,21 +880,21 @@ export default {
         {
           icon: '📧',
           title: 'Email',
-          value: 'moumen@moumen-nabata.com',
+          value: 'moumen@freedom-divers.de',
           subtitle: 'Professional inquiries & bookings',
-          link: 'mailto:moumen@moumen-nabata.com'
+          link: 'mailto:moumen@freedom-divers.de'
         },
         {
           icon: '📱',
           title: 'WhatsApp',
-          value: '+20 123-456-7890',
+          value: '+20 01224369878',
           subtitle: 'Quick questions & support',
-          link: 'https://wa.me/201234567890'
+          link: 'https://wa.me/201224369878'
         },
         {
           icon: '📍',
           title: 'Training Location',
-          value: 'Freedom Divers Safaga, Red Sea, Egypt',
+          value: 'El Cornish street, Safaga-Red Sea Egypt 84722',
           subtitle: 'World-class training facility'
         },
         {
@@ -950,9 +909,9 @@ export default {
       // QUICK CONTACT OPTIONS
       // ===============================
       quickContacts: [
-        { name: 'WhatsApp', icon: '💬', link: 'https://wa.me/201234567890', color: 'text-green-500' },
-        { name: 'Email', icon: '📧', link: 'mailto:moumen@moumen-nabata.com', color: 'text-blue-500' },
-        { name: 'Call', icon: '📞', link: 'tel:+201234567890', color: 'text-orange-500' }
+        { name: 'WhatsApp', icon: '💬', link: 'https://wa.me/201224369878', color: 'text-green-500' },
+        { name: 'Email', icon: '📧', link: 'mailto:moumen@freedom-divers.de', color: 'text-blue-500' },
+        { name: 'Call', icon: '📞', link: 'tel:+201224369878', color: 'text-orange-500' }
       ]
     };
   },
@@ -1575,4 +1534,3 @@ export default {
   outline-offset: 2px;
 }
 </style>
-.text-overlay-enhancement {

@@ -339,8 +339,8 @@ cat > resources/js/components/Footer.vue << 'EOF'
           <h4 class="text-lg font-semibold mb-4">Contact Info</h4>
           <ul class="space-y-2 text-gray-300">
             <li>📍 Red Sea, Egypt</li>
-            <li>📧 info@moumendiving.com</li>
-            <li>📱 +20 123 456 7890</li>
+            <li>moumen@freedom-divers.de</li>
+            <li>📱 +20 01224369878</li>
           </ul>
         </div>
         
@@ -588,7 +588,7 @@ cat > resources/js/pages/Contact.vue << 'EOF'
             </p>
             <p class="flex items-center">
               <span class="mr-3">📱</span>
-              +20 123 456 7890
+              +20 01224369878
             </p>
             <p class="flex items-center">
               <span class="mr-3">⏰</span>

@@ -24,9 +24,11 @@
         <div class="bg-white rounded-lg shadow-lg p-8">
           <h2 class="text-2xl font-semibold mb-6">Contact Information</h2>
           <div class="space-y-4">
-            <p>📍 Marina Boulevard, Hurghada, Red Sea, Egypt</p>
-            <p>📧 info@moumendiving.com</p>
-            <p>📱 +20 123 456 7890</p>
+            <p>📍 El Cornish street
+ Safaga-Red Sea Egypt 
+84722</p>
+            <p>moumen@freedom-divers.de</p>
+            <p>📱 +20 01224369878</p>
             <p>⏰ Daily: 8:00 AM - 6:00 PM</p>
           </div>
         </div>
